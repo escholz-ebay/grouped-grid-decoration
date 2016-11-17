@@ -19,14 +19,6 @@
         android:focusable="false"
         android:clickable="false"/>
 
-    <View
-        android:id="@+id/overlay_container_3"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:tag="3"
-        android:focusable="false"
-        android:clickable="false"/>
-
     <FrameLayout
         android:id="@+id/overlay_container_1"
         android:layout_width="match_parent"
