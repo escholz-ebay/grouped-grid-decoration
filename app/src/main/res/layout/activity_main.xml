@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context="com.ebay.example.ggd.MainActivity">
+
+    <!--
+        These would normally be added programatically for API 21+ only.
+        They're in the layout to make the example easier to see.
+    -->
+    <View
+        android:id="@+id/overlay_container_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="2"
+        android:focusable="false"
+        android:clickable="false"/>
+
+    <View
+        android:id="@+id/overlay_container_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="3"
+        android:focusable="false"
+        android:clickable="false"/>
+
+    <View
+        android:id="@+id/overlay_container_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="1"
+        android:focusable="false"
+        android:clickable="false"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>
