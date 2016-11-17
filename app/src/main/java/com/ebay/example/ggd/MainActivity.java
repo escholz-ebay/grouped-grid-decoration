@@ -50,16 +50,7 @@ public class MainActivity extends AppCompatActivity
                 new ItemViewModel(2, 3, "Item 17"),
                 new ItemViewModel(2, 3, "Item 18"),
                 new ItemViewModel(2, 3, "Item 19"),
-                new ItemViewModel(2, 3, "Item 20"),
-                new ItemViewModel(3, 3, "Item 21"),
-                new ItemViewModel(3, 3, "Item 22"),
-                new ItemViewModel(3, 3, "Item 23"),
-                new ItemViewModel(3, 3, "Item 24"),
-                new ItemViewModel(3, 3, "Item 25"),
-                new ItemViewModel(3, 3, "Item 26"),
-                new ItemViewModel(3, 3, "Item 27"),
-                new ItemViewModel(3, 3, "Item 28"),
-                new ItemViewModel(3, 3, "Item 29")
+                new ItemViewModel(2, 3, "Item 20")
             )
         );
 
@@ -70,8 +61,6 @@ public class MainActivity extends AppCompatActivity
         ViewCompat.setElevation(overlayContainer1, backgroundElevation);
         final View overlayContainer2 = findViewById(R.id.overlay_container_2);
         ViewCompat.setElevation(overlayContainer2, backgroundElevation);
-        final View overlayContainer3 = findViewById(R.id.overlay_container_3);
-        ViewCompat.setElevation(overlayContainer3, backgroundElevation);
 
         final Drawable backgroundDrawable = ResourcesCompat.getDrawable(resources,
                 R.drawable.group_background, getTheme());
