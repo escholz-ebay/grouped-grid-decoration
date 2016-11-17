@@ -13,35 +13,25 @@
     -->
 
     <FrameLayout
-        android:id="@+id/overlay_container_3"
+        android:id="@+id/overlay_container_2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:tag="3"
+        android:tag="2"
         android:focusable="false"
         android:clickable="false">
 
         <FrameLayout
-            android:id="@+id/overlay_container_2"
+            android:id="@+id/overlay_container_1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:tag="2"
+            android:tag="1"
             android:focusable="false"
             android:clickable="false">
 
-            <FrameLayout
-                android:id="@+id/overlay_container_1"
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview_main"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:tag="1"
-                android:focusable="false"
-                android:clickable="false">
-
-                <android.support.v7.widget.RecyclerView
-                    android:id="@+id/recyclerview_main"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"/>
-
-            </FrameLayout>
+                android:layout_height="match_parent"/>
 
         </FrameLayout>
 
